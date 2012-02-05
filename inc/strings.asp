@@ -20,7 +20,7 @@ Dim strTwitterName, strTweetText, strFacebookURL, strGoogleAnalID, strGoogleFont
 strTwitterName = "Trippnology"
 strFacebookURL = "http://www.facebook.com/Trippnology"
 strGoogleAnalID = "UA-XXXXX-X"
-strGoogleFonts = "Coda"
+strGoogleFonts = "Squada+One"
 
 'Form to email
 'Server Setup

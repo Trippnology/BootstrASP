@@ -4,7 +4,8 @@ body {
 }
 
 /* Text styling */
-h1, h2, h3, h4, h5, h6 { font-family:Coda, Verdana, Geneva, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family:'Squada One', Verdana, Geneva, sans-serif; }
+.brand { font-family:'Squada One', Verdana, Geneva, sans-serif; }
 #sitetitle { }
 #tagline { }
 #pagetitle { width:100%; line-height:1.5em; }
@@ -13,6 +14,8 @@ h1, h2, h3, h4, h5, h6 { font-family:Coda, Verdana, Geneva, sans-serif; }
 /* Section styling */
 header[role=banner] { }
 #sitetitlebox { }
+#left { margin-top:20px; }
+#right { margin-top:20px; }
 footer[role=contentinfo] { text-align:center; }
 
 /* Utilities */
