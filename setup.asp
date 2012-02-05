@@ -13,7 +13,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=<%=strGoogleFonts%>">
-    <link rel="stylesheet" href="css/<%=strStylesheet%>">
+	<!-- Next line is old method. Left for possible future use -->
+    <!--<link rel="stylesheet" href="css/<%=strStylesheet%>">-->
+	<link href="<%=strBSCSS%>bootstrap.css" rel="stylesheet">
+    <link href="<%=strBSCSS%>bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css"><!-- Placed last to override all other styles -->
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="canonical" href="<%=strDomain & strCanonical%>">

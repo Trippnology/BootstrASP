@@ -10,6 +10,11 @@ strTagline = "Twitter Bootstrap with some ASP goodies"
 'You could set default values here and overide them per page
 Dim strPageName, strCanonical, strDescription, strKeywords, strStylesheet
 
+'Bootstrap
+strBSCSS = "bs/docs/assets/css/"
+strBSImg = "bs/docs/assets/img/"
+strBSJS = "bs/docs/assets/js/"
+
 'External sites
 Dim strTwitterName, strTweetText, strFacebookURL, strGoogleAnalID, strGoogleFonts
 strTwitterName = "Trippnology"
