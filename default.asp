@@ -1,8 +1,8 @@
 <%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 <!-- #include file="inc/strings.asp" -->
 <%
-strPageName = "The Trippnology Skeleton Boilerplate"
-strCanonical = "http://localhost/default.asp"
+strPageName = "BootstrASP"
+strCanonical = "http://localhost/bootstrasp/default.asp"
 strDescription = "A standards compliant framework to jump start our web projects."
 strKeywords = "keyword1, keyword2, keyword3"
 strStylesheet = "bootstrap.css"
@@ -11,18 +11,18 @@ strTweetText = strPageName
 <!-- #include file="setup.asp" -->
 
 <body class="container">
-	<!-- #include file="inc/bootstrap-topbar.asp" -->
+	<!-- #include file="inc/bs-navbar.asp" -->
 	
-	<div class="span16">
+	<div class="span12">
 	<!-- #include file="inc/header.asp" -->
 	</div>
 	
 	<div class="row tiltwrapper">
-        <div id="left" class="span3 tiltright">
+        <div id="left" class="span2 tiltright">
         <!-- #include file="inc/leftmenu.asp" -->
         </div>
         
-        <div class="span9" id="main" role="main">
+        <div class="span7" id="main" role="main">
             <h1 id="pagetitle"><a href="<%=strCanonical%>" title="<%=strPageName%>"><%=strPageName%></a></h1>
             <article>
                 <h1>About</h1>
@@ -65,13 +65,13 @@ strTweetText = strPageName
 			</article>
         </div>
         
-        <div id="right" class="span4 tiltleft">
+        <div id="right" class="span3 tiltleft">
         <!-- #include file="inc/rightmenu.asp" -->
         </div>
     </div>
 	
 	<div class="row">
-        <div class="span16">
+        <div class="span12">
 		<!-- #include file="inc/footer.asp" -->
         </div>
 	</div>
