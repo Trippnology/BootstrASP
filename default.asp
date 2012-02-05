@@ -13,11 +13,6 @@ strTweetText = strPageName
 <body>
 	<!-- #include file="inc/bs-navbar.asp" -->
 	<div class="container-fluid">
-		<div class="row jumbotron">
-			<div class="span12">
-			<!-- #include file="inc/header.asp" -->
-			</div>
-		</div>
 		
 		<div class="row-fluid tiltwrapper">
 			<div id="left" class="span2 tiltright">
@@ -81,7 +76,9 @@ strTweetText = strPageName
 <!-- #include file="setup2.asp" -->
 
 <%' Put page specific jQuery stuff here %>
- 
+<script>
+	$("#pagetitle").fitText(0.8);
+</script>
 <%' End of jQuery stuff %>
 </body>
 </html>

@@ -1,2 +1,2 @@
 <script src="js/mylibs/live.js"></script>
-<script src="js/mylibs/bootstrap-dropdown.js"></script>
+<script src="fittext/jquery.fittext.js"></script>

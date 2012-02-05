@@ -1,13 +1,13 @@
 
 body { 
 	padding-top:40px; /* To account for the static navbar */
-	line-height:1.5em;
 }
 
 /* Text styling */
+h1, h2, h3, h4, h5, h6 { font-family:Coda, Verdana, Geneva, sans-serif; }
 #sitetitle { }
 #tagline { }
-#pagetitle { font-size:500%; line-height:1.5em; }
+#pagetitle { width:100%; line-height:1.5em; }
 #pagetitle a:hover { text-decoration:none; }
 
 /* Section styling */
@@ -181,14 +181,19 @@ img.right	{ margin:0 0 0 20px; }
 /* Media Queries */
 /* Landscape phones and down */
 @media (max-width: 480px) {
-	#pagetitle { font-size:300%; }
+	body { padding-top:0; }	
 }
  
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {  }
+@media (max-width: 768px) {
+	body { padding-top:0; }
+	#pagetitle { width:60%; }	
+}
  
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 980px) {  }
+@media (min-width: 768px) and (max-width: 980px) {
+	body { padding-top:0; }
+}
  
 /* Large desktop */
 @media (min-width: 1200px) {  }
