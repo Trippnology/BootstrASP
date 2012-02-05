@@ -70,7 +70,7 @@ strTweetText = strPageName
 			</div>
 		</div>
 		
-		<div class="row">
+		<div class="row-fluid">
 			<div class="span12">
 			<!-- #include file="inc/footer.asp" -->
 			</div>
@@ -80,7 +80,7 @@ strTweetText = strPageName
 
 <%' Put page specific jQuery stuff here %>
 <script>
-	$("#pagetitle").fitText(0.8);
+	$("#pagetitle").fitText(0.8, { minFontSize: '44px' })
 </script>
 <%' End of jQuery stuff %>
 </body>

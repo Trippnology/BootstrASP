@@ -190,7 +190,7 @@ img.right	{ margin:0 0 0 20px; }
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
 	body { padding-top:0; }
-	#pagetitle { width:60%; }	
+	#left { display:none; }
 }
  
 /* Portrait tablet to landscape and desktop */
