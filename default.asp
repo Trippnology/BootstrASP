@@ -23,7 +23,7 @@ strTweetText = strPageName
 				<h1 id="pagetitle"><a href="<%=strCanonical%>" title="<%=strPageName%>"><%=strPageName%></a></h1>
 				<article>
 					<h1>About</h1>
-					<p>The idea is to get a basic framework in place that is standards compliant, flexible, responsive and contains everything the modern website needs right out of the box.</p>
+					<p>The idea is to use Bootstrap and ASP to build a framework of modules used for rapid development of web projects. We're trying to make it standards compliant, flexible (as in, useful in may senarios), responsive and contains everything the modern website needs right out of the box.</p>
 				</article>
 				<article>
 					<h1>What's included</h1>
@@ -31,8 +31,7 @@ strTweetText = strPageName
 					<ul>
 						<li>Structure/style:
 							<ul>
-								<li>HTML5 Boilerplate</li>
-								<li>Inuit.css (layout styles only)</li>
+								<li>Bootstrap (submodule)</li>
 								<li>Google Font API</li>
 							</ul>
 						</li>
@@ -40,13 +39,12 @@ strTweetText = strPageName
 							<ul>
 								<li>jQuery and these plugins:
 									<ul>
+										<li>FitText (submodule)</li>
 										<li>ExternalLinks</li>
 										<li>BlockFader</li>
 										<li>Fancybox</li>
-										<li>Tooltipsy</li>
 									</ul>
 								</li>
-								<li>Live.js</li>
 								<li>Google Analytics</li>
 							</ul>
 						</li>
@@ -55,6 +53,11 @@ strTweetText = strPageName
 								<li>Twitter Tweet Button</li>
 								<li>Facebook Like Button</li>
 								<li>AddThis Button</li>
+							</ul>
+						</li>
+						<li>Development
+							<ul>
+								<li>Live.js</li>
 							</ul>
 						</li>
 					</ul>
