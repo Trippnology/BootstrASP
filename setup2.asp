@@ -7,6 +7,22 @@
 <script>window.jQuery || document.write("<script src='js/libs/jquery.easing-1.3.pack.js'>\x3C/script>")</script>
 <script src="http://cachedcommons.org/cache/jquery-mousewheel/3.0.3/javascripts/jquery-mousewheel-min.js"></script>
 <script>window.jQuery || document.write("<script src='js/libs/jquery.mousewheel-3.0.4.pack.js'>\x3C/script>")</script>
+<script src="fittext/jquery.fittext.js"></script>
+
+<%' Bootstrap %>
+<script src="<%=strBSJS%>bootstrap-transition.js"></script>
+<script src="<%=strBSJS%>bootstrap-alert.js"></script>
+<script src="<%=strBSJS%>bootstrap-modal.js"></script>
+<script src="<%=strBSJS%>bootstrap-dropdown.js"></script>
+<script src="<%=strBSJS%>bootstrap-scrollspy.js"></script>
+<script src="<%=strBSJS%>bootstrap-tab.js"></script>
+<script src="<%=strBSJS%>bootstrap-tooltip.js"></script>
+<script src="<%=strBSJS%>bootstrap-popover.js"></script>
+<script src="<%=strBSJS%>bootstrap-button.js"></script>
+<script src="<%=strBSJS%>bootstrap-collapse.js"></script>
+<script src="<%=strBSJS%>bootstrap-carousel.js"></script>
+<script src="<%=strBSJS%>bootstrap-typeahead.js"></script>
+<script src="<%=strBSJS%>application.js"></script>
 
 <!-- DO NOT modify the following (including the comments) -->
 <!-- scripts concatenated and minified via ant build script-->
@@ -28,20 +44,6 @@ g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js
 s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 
-<%' Bootstrap %>
-<script src="<%=strBSJS%>bootstrap-transition.js"></script>
-<script src="<%=strBSJS%>bootstrap-alert.js"></script>
-<script src="<%=strBSJS%>bootstrap-modal.js"></script>
-<script src="<%=strBSJS%>bootstrap-dropdown.js"></script>
-<script src="<%=strBSJS%>bootstrap-scrollspy.js"></script>
-<script src="<%=strBSJS%>bootstrap-tab.js"></script>
-<script src="<%=strBSJS%>bootstrap-tooltip.js"></script>
-<script src="<%=strBSJS%>bootstrap-popover.js"></script>
-<script src="<%=strBSJS%>bootstrap-button.js"></script>
-<script src="<%=strBSJS%>bootstrap-collapse.js"></script>
-<script src="<%=strBSJS%>bootstrap-carousel.js"></script>
-<script src="<%=strBSJS%>bootstrap-typeahead.js"></script>
-<script src="<%=strBSJS%>application.js"></script>
 
 <%' Global jQuery settings %>
 <script>
