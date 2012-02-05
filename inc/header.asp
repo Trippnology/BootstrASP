@@ -1,6 +1,6 @@
 <header role="banner">
-    <div id="titlebox">
-        <h1><%=strSiteName%></h1>
-        <p><%=strTagline%></p>
+    <div id="sitetitlebox">
+        <h1 id="sitetitle"><%=strSiteName%></h1>
+        <p id="tagline"><%=strTagline%></p>
     </div>
 </header>

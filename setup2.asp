@@ -1,6 +1,6 @@
 <%' Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary %>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-<script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+<script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>-->
 
 <%' Grab extra jQuery files from CDN or fall back to local %>
 <script src="http://cachedcommons.org/cache/jquery-easing/1.3.0/javascripts/jquery-easing-min.js"></script>
@@ -27,6 +27,22 @@ g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js
 s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 
+<%' Bootstrap %>
+<script src="<%=strBSJS%>jquery.js"></script>
+<script src="<%=strBSJS%>bootstrap-transition.js"></script>
+<script src="<%=strBSJS%>bootstrap-alert.js"></script>
+<script src="<%=strBSJS%>bootstrap-modal.js"></script>
+<script src="<%=strBSJS%>bootstrap-dropdown.js"></script>
+<script src="<%=strBSJS%>bootstrap-scrollspy.js"></script>
+<script src="<%=strBSJS%>bootstrap-tab.js"></script>
+<script src="<%=strBSJS%>bootstrap-tooltip.js"></script>
+<script src="<%=strBSJS%>bootstrap-popover.js"></script>
+<script src="<%=strBSJS%>bootstrap-button.js"></script>
+<script src="<%=strBSJS%>bootstrap-collapse.js"></script>
+<script src="<%=strBSJS%>bootstrap-carousel.js"></script>
+<script src="<%=strBSJS%>bootstrap-typeahead.js"></script>
+<script src="<%=strBSJS%>application.js"></script>
+
 <%' Global jQuery settings %>
 <script>
 	$(document).ready(function() {
@@ -36,10 +52,8 @@ s.parentNode.insertBefore(g,s)}(document,"script"));
 			'transitionIn'		: 'elastic',
 			'transitionOut'		: 'elastic'
 		});
-		// Tooltipsy
-		$('.hastip').tooltipsy({
-			offset: [10, 0],
-		});
+		// Bootstrap
+		$('.dropdown-toggle').dropdown()
 	});
 </script>
     
