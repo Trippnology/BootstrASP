@@ -80,7 +80,7 @@ strTweetText = strPageName
 
 <%' Put page specific jQuery stuff here %>
 <script>
-	$("#pagetitle").fitText(0.8, { minFontSize: '44px' })
+	
 </script>
 <%' End of jQuery stuff %>
 </body>

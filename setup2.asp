@@ -46,14 +46,16 @@ s.parentNode.insertBefore(g,s)}(document,"script"));
 <%' Global jQuery settings %>
 <script>
 	$(document).ready(function() {
+		// FitText
+		$("#pagetitle").fitText(0.8, { minFontSize: '44px' });
+		// Bootstrap
+		$('.dropdown-toggle').dropdown();
 		// Fancybox
 		$("#fancybox-trigger").fancybox({
 			'titlePosition'		: 'inside',
 			'transitionIn'		: 'elastic',
 			'transitionOut'		: 'elastic'
-		});
-		// Bootstrap
-		$('.dropdown-toggle').dropdown()
+		})
 	});
 </script>
     
