@@ -1,6 +1,6 @@
 <%' Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary %>
-<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-<script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='js/libs/jquery-1.7.1.min.js'>\x3C/script>")</script>-->
 
 <%' Grab extra jQuery files from CDN or fall back to local %>
 <script src="http://cachedcommons.org/cache/jquery-easing/1.3.0/javascripts/jquery-easing-min.js"></script>
@@ -28,7 +28,6 @@ s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 
 <%' Bootstrap %>
-<script src="<%=strBSJS%>jquery.js"></script>
 <script src="<%=strBSJS%>bootstrap-transition.js"></script>
 <script src="<%=strBSJS%>bootstrap-alert.js"></script>
 <script src="<%=strBSJS%>bootstrap-modal.js"></script>
