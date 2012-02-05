@@ -180,7 +180,9 @@ img.right	{ margin:0 0 0 20px; }
 
 /* Media Queries */
 /* Landscape phones and down */
-@media (max-width: 480px) {  }
+@media (max-width: 480px) {
+	#pagetitle { font-size:300%; }
+}
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {  }
