@@ -1,9 +1,10 @@
 <%
 'Global
-Dim strDomain, strSiteName, strTagline
-strDomain = "http://localhost/skeletonbp/"
-strSiteName = "TNG Skeleton BP"
-strTagline = "HTML5 | CSS3 | JS | ASP"
+Dim strDomain, strAdminEmail, strSiteName, strTagline
+strDomain = "http://localhost/bootstrasp/"
+strAdminEmail = "mail@trippnology.com"
+strSiteName = "BootstrASP"
+strTagline = "Twitter Bootstrap with some ASP goodies"
 
 'Page Specific
 'You could set default values here and overide them per page
@@ -20,11 +21,11 @@ strGoogleFonts = "Lobster"
 'Server Setup
 Dim Mailer, strMsgHeader, qryItem, strMsgInfo
 Dim strFromName, strFromAdd, strMailHost, strRecipientName, strRecipientEmail, strSubject
-strFromName = "Trippnology Skeleton BP"
-strFromAdd = "bp@trippnology.com"
+strFromName = strSiteName
+strFromAdd = strAdminEmail
 strMailHost = "auth.smtp.1and1.co.uk"
 strRecipientName = "Trippnology"
-strRecipientEmail = "trippnology@gmail.com"
+strRecipientEmail = strAdminEmail
 strSubject = "Contact from your website"
 strMsgHeader = "Someone has sent you a message:"
 
