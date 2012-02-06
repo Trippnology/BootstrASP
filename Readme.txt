@@ -1,9 +1,10 @@
 A simple framework built with Bootstrap and ASP
-Many files are from Skeleton BP
 
-This is my first project using submodules:
-Bootstrap from twitter https://github.com/twitter/bootstrap.git
-HTML5 Boilerplate from Paul Irish. https://github.com/h5bp/html5-boilerplate.git
+Submodules
+##########
+	Bootstrap - https://github.com/twitter/bootstrap.git
+	FitText - https://github.com/davatron5000/FitText.js.git
+	HTML5 Boilerplate Build Script - https://github.com/h5bp/ant-build-script.git
 
 Includes
 ########
@@ -19,8 +20,8 @@ Setup2.asp - All script files should be launched from here.
 	jQuery - Grabbed from CDN with a local fallback
 	jQuery easing - Grabbed from CDN with a local fallback
 	jQuery mousewheel - Grabbed from CDN with a local fallback
-	Google Analytics - Optimised async version
 	Global jQuery options - Put jQuery settings here that will be used site wide.
+	Google Analytics - Optimised async version
 
 Inc/dev.asp
 	Area for testing scripts, CSS etc. and calls live.js for designing in the browser - Remove include from setup.asp for production.
