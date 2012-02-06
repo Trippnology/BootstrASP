@@ -35,7 +35,7 @@ footer[role=contentinfo] { text-align:center; }
 
 /* Utilities */
 /* ######################################################### */
-.current { font-weight:bold; } /* Not yet implemented */
+.current { font-weight:bold; }
 .left { float:left; }
 .right { float:right; }
 img.left	{ margin:0 20px 0 0; }

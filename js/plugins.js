@@ -18,6 +18,7 @@ window.log = function(){
 $('a[rel="external"]').attr('target', '_blank');
 
 
+
 /* blockfade jQuery plugin
  * 
  * 
