@@ -4,3 +4,6 @@
 [submodule "fittext"]
 	path = fittext
 	url = https://github.com/davatron5000/FitText.js.git
+[submodule "build"]
+	path = build
+	url = https://github.com/h5bp/ant-build-script.git
