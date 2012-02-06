@@ -41,8 +41,9 @@
 		$('.dropdown-toggle').dropdown();
 		$('a[rel=tooltip]').tooltip({
 			'placement' : 'right'
-		})
-
+		});
+		$('#globalmodal').modal('hide')
+		
 		// Fancybox
 		$("#fancybox-trigger").fancybox({
 			'titlePosition'		: 'inside',
