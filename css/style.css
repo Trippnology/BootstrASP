@@ -1,20 +1,24 @@
+/* BootstrASP Styles */
+/* Rikki Tripp - www.trippnology.com */
 
-body { 
-	padding-top:40px; /* To account for the static navbar */
-}
 
 /* Text styling */
 h1, h2, h3, h4, h5, h6 { font-family:'Squada One', Verdana, Geneva, sans-serif; }
 .brand { font-family:'Squada One', Verdana, Geneva, sans-serif; }
-#sitetitle { }
-#tagline { }
+#sitetitle { } /* Alternative to static navbar */
+#tagline { } /* Use with #sitetitle */
 #pagetitle { width:100%; line-height:1.5em; }
 #pagetitle a:hover { text-decoration:none; }
 
 /* Section styling */
+body { 
+	padding-top:40px; /* To account for the static navbar */
+}
 header[role=banner] { }
 #sitetitlebox { }
 #left { margin-top:20px; }
+#left nav { padding-left:0.5em; }
+#share { padding-left:0.5em; }
 #right { margin-top:20px; }
 footer[role=contentinfo] { text-align:center; }
 
@@ -25,6 +29,7 @@ footer[role=contentinfo] { text-align:center; }
 img.left	{ margin:0 20px 0 0; }
 img.right	{ margin:0 0 0 20px; }
 .border { border:1px solid #444; }
+/* Round Corners */
 .roundsm {
 	-webkit-border-radius:5px;
 	   -moz-border-radius:5px;
@@ -35,11 +40,22 @@ img.right	{ margin:0 0 0 20px; }
 	   -moz-border-radius:10px;
 		    border-radius:10px;	
 }
+/* Box Shadows */
+.shadowleft {
+	-webkit-box-shadow: -5px 5px 5px #ccc; 
+	   -moz-box-shadow: -5px 5px 5px #ccc; 
+		  	box-shadow: -5px 5px 5px #ccc; 
+}
+.shadowright {
+	-webkit-box-shadow: 5px 5px 5px #ccc; 
+	   -moz-box-shadow: 5px 5px 5px #ccc; 
+		  	box-shadow: 5px 5px 5px #ccc; 
+}
 
 /* CCS3 3D Transforms */
 /* 3D Tilt Effect */
 .tiltwrapper {
-	-webkit-perspective: 800px;
+	-webkit-perspective: 1500px;
 	   -moz-perspective: 800px;
 			perspective: 800px;
 }
@@ -180,6 +196,7 @@ img.right	{ margin:0 0 0 20px; }
   padding: 5px;
 }
 /* End 3D Photo Effect */
+
 
 /* Media Queries */
 /* Landscape phones and down */

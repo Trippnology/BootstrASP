@@ -15,7 +15,7 @@ strTweetText = strPageName
 	<div class="container-fluid">
 		
 		<div class="row-fluid tiltwrapper">
-			<div id="left" class="span2 tiltright">
+			<div id="left" class="span2 tiltright shadowleft roundlrg">
 			<!-- #include file="inc/leftmenu.asp" -->
 			</div>
 			
@@ -65,7 +65,7 @@ strTweetText = strPageName
 				</article>
 			</div>
 			
-			<div id="right" class="span3 tiltleft">
+			<div id="right" class="span3 tiltleft shadowright roundlrg">
 			<!-- #include file="inc/rightmenu.asp" -->
 			</div>
 		</div>
