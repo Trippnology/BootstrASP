@@ -28,6 +28,7 @@ body {
 header[role=banner] { } /* Alternative to static navbar */
 #sitetitlebox { } /* Alternative to static navbar */
 #left { margin-top:20px; }
+#left nav { padding-top:0.5em; }
 #share { padding-left:0.5em; }
 #right { margin-top:20px; }
 footer[role=contentinfo] { text-align:center; }
@@ -44,12 +45,18 @@ img.right	{ margin:0 0 0 20px; }
 .roundsm {
 	-webkit-border-radius:5px;
 	   -moz-border-radius:5px;
-		    border-radius:5px;	
+		    border-radius:5px;
+	-webkit-background-clip: padding-box;
+	   -moz-background-clip: padding;
+	   		background-clip: padding-box;
 }
 .roundlrg {
 	-webkit-border-radius:10px;
 	   -moz-border-radius:10px;
 		    border-radius:10px;	
+	-webkit-background-clip: padding-box;
+	   -moz-background-clip: padding;
+	   		background-clip: padding-box;
 }
 /* Box Shadows */
 .shadowleft {
