@@ -28,7 +28,6 @@ body {
 header[role=banner] { } /* Alternative to static navbar */
 #sitetitlebox { } /* Alternative to static navbar */
 #left { margin-top:20px; }
-#left nav { padding-left:0.5em; }
 #share { padding-left:0.5em; }
 #right { margin-top:20px; }
 footer[role=contentinfo] { text-align:center; }
