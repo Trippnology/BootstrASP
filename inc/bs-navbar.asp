@@ -26,12 +26,12 @@
 				</li>
 				<li class="dropdown" id="demosmenu">
 					<a href="#demosmenu" class="dropdown-toggle" data-toggle="dropdown">Demos<b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="#"><b>jQuery</b></a></li>
+					<ul class="dropdown-menu nav-list">
+						<li class="nav-header">jQuery</li>
 						<li><a href="blockfader.asp">Blockfader</a></li>
 						<li><a href="fancybox.asp">Fancybox</a></li>
 						<li class="divider"></li>
-						<li><a href="#"><b>CSS3</b></a></li>
+						<li class="nav-header">CSS3</li>
 						<li><a href="3drollovers.asp">3D Rollovers</a></li>
 					</ul>
 				</li>
