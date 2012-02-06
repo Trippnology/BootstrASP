@@ -1,8 +1,18 @@
-/* BootstrASP Styles */
-/* Rikki Tripp - www.trippnology.com */
-
+/* ######################################################### */
+/*															 */
+/* BootstrASP Styles										 */
+/* Rikki Tripp - www.trippnology.com						 */
+/* Contents:												 */
+/* 		Text Styling										 */
+/*		Section Styling										 */
+/*		Utilities											 */
+/*		CSS3 Transforms										 */
+/*		Media Queries										 */
+/*															 */
+/* ######################################################### */
 
 /* Text styling */
+/* ######################################################### */
 h1, h2, h3, h4, h5, h6 { font-family:'Squada One', Verdana, Geneva, sans-serif; }
 .brand { font-family:'Squada One', Verdana, Geneva, sans-serif; }
 #sitetitle { } /* Alternative to static navbar */
@@ -11,11 +21,12 @@ h1, h2, h3, h4, h5, h6 { font-family:'Squada One', Verdana, Geneva, sans-serif; 
 #pagetitle a:hover { text-decoration:none; }
 
 /* Section styling */
+/* ######################################################### */
 body { 
 	padding-top:40px; /* To account for the static navbar */
 }
-header[role=banner] { }
-#sitetitlebox { }
+header[role=banner] { } /* Alternative to static navbar */
+#sitetitlebox { } /* Alternative to static navbar */
 #left { margin-top:20px; }
 #left nav { padding-left:0.5em; }
 #share { padding-left:0.5em; }
@@ -23,7 +34,8 @@ header[role=banner] { }
 footer[role=contentinfo] { text-align:center; }
 
 /* Utilities */
-.current { font-weight:bold; }
+/* ######################################################### */
+.current { font-weight:bold; } /* Not yet implemented */
 .left { float:left; }
 .right { float:right; }
 img.left	{ margin:0 20px 0 0; }
@@ -53,6 +65,7 @@ img.right	{ margin:0 0 0 20px; }
 }
 
 /* CCS3 3D Transforms */
+/* ######################################################### */
 /* 3D Tilt Effect */
 .tiltwrapper {
 	-webkit-perspective: 1500px;
@@ -199,6 +212,7 @@ img.right	{ margin:0 0 0 20px; }
 
 
 /* Media Queries */
+/* ######################################################### */
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	body { padding-top:0; }	
