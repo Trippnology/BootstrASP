@@ -39,7 +39,7 @@
 		$("#pagetitle").fitText(0.8, { minFontSize: '44px' });
 		// Bootstrap
 		$('.dropdown-toggle').dropdown();
-		$('a[rel=tooltip]').tooltip({
+		$('a.hastooltip').tooltip({
 			'placement' : 'right'
 		});
 		$('#globalmodal').modal('hide')
