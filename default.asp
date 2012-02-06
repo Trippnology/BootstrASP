@@ -80,7 +80,6 @@ strTweetText = strPageName
 
 <%' Put page specific jQuery stuff here %>
 <script>
-	
 </script>
 <%' End of jQuery stuff %>
 </body>

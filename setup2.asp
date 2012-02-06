@@ -39,6 +39,10 @@
 		$("#pagetitle").fitText(0.8, { minFontSize: '44px' });
 		// Bootstrap
 		$('.dropdown-toggle').dropdown();
+		$('a[rel=tooltip]').tooltip({
+			'placement' : 'right'
+		})
+
 		// Fancybox
 		$("#fancybox-trigger").fancybox({
 			'titlePosition'		: 'inside',
