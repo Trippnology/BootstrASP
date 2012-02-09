@@ -7,3 +7,6 @@
 [submodule "build"]
 	path = build
 	url = https://github.com/h5bp/ant-build-script.git
+[submodule "modernizr"]
+	path = modernizr
+	url = https://github.com/Modernizr/Modernizr.git

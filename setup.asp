@@ -21,5 +21,5 @@
     <link rel="canonical" href="<%=strDomain & strCanonical%>">
     <link rel="author" href="<%=strDomain%>humans.txt">
     
-    <script src="js/libs/modernizr-1.7.min.js"></script>
+    <script src="modernizr/modernizr.js"></script>
 </head>

@@ -5,6 +5,7 @@ Submodules
 	Bootstrap - https://github.com/twitter/bootstrap.git
 	FitText - https://github.com/davatron5000/FitText.js.git
 	HTML5 Boilerplate Build Script - https://github.com/h5bp/ant-build-script.git
+	Modernizr - https://github.com/Modernizr/Modernizr.git
 
 Includes
 ########
