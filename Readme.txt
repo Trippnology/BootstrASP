@@ -92,3 +92,4 @@ ToDo
 	Configure build script.
 	Separate global modal into include file (currently in footer.asp)
 	Look at integrating https://github.com/samuelcotterall/touchdown
+	Look at integrating OAuth https://github.com/sdesapio/Classic-ASP-VBScript-OAuth
