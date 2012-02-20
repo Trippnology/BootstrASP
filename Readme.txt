@@ -84,12 +84,3 @@ Back End
 ########
 	Formtoemail.asp - Processes contact forms. Most settings are in inc/strings.asp.
 
-ToDo
-####
-	Make form submission messages appear in popup rather than new page (modal?).
-	Include demos from SkeletonBP.
-	Include new menu effect demo.
-	Configure build script.
-	Separate global modal into include file (currently in footer.asp)
-	Look at integrating https://github.com/samuelcotterall/touchdown
-	Look at integrating OAuth https://github.com/sdesapio/Classic-ASP-VBScript-OAuth
