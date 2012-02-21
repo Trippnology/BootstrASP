@@ -8,3 +8,4 @@ ToDo
 	Look at integrating https://github.com/samuelcotterall/touchdown
 	Look at integrating OAuth https://github.com/sdesapio/Classic-ASP-VBScript-OAuth
 	Look at integrating Sequence https://github.com/IanLunn/Sequence
+	Look at integrating Dynamic-Carousel https://github.com/JosepMartins/Dynamic-Carousel
