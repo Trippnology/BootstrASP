@@ -17,7 +17,8 @@ Potential Submodules
 	Dynamic-Carousel https://github.com/JosepMartins/Dynamic-Carousel
 	Textualizer https://github.com/krisk/textualizer
 	Chosen https://github.com/harvesthq/chosen/
-
+	SEO Checklist https://github.com/benhowdle89/Seo.js
+	
 Other
 #####
 	Fully switch to safe branching model: http://nvie.com/posts/a-successful-git-branching-model/ ( Master>Develop>Feature )
