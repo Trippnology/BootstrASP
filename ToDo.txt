@@ -1,6 +1,5 @@
 Bugs
 ####
-	Make 3D Tilt effect for large displays only.
 	Mousewheel only scrolls one way in Fancybox.
 
 Features
