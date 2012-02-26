@@ -1,4 +1,5 @@
 A simple framework built with Bootstrap and ASP
+Version: 0.0.3
 
 Submodules
 ##########
