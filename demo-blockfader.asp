@@ -22,7 +22,8 @@ strTweetText = strPageName
 			<div class="span7" id="main" role="main">
 				<h1 id="pagetitle"><a href="<%=strCanonical%>" title="<%=strPageName%>"><%=strPageName%></a></h1>
 				<article>
-					<p>A demo of the Blockfader jQuery plugin</p>
+					<p>A demo of the <a href="http://www.codefocus.ca/goodies/blockfader" title="Blockfader">Blockfader</a> jQuery plugin</p>
+					<div id="BFdemo"></div>
 				</article>
 			</div>
 			
@@ -41,7 +42,15 @@ strTweetText = strPageName
 
 <%' Put page specific jQuery stuff here %>
 <script>
-	
+$(document).ready(function(){
+//  Initialize the blockfader
+	$('#BFdemo').blockfade([
+		{ image:    'img/icons/backup.png' },
+		{ image:    'img/icons/Facebook.png' },
+		{ image:    'img/icons/Firefox.png' },
+		{ image:    'img/icons/wifi.png' }
+	]);
+});	
 </script>
 <%' End of jQuery stuff %>
 </body>
