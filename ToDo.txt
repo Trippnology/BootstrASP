@@ -1,5 +1,6 @@
 ToDo
 ####
+	Fully switch to safe branching model: http://nvie.com/posts/a-successful-git-branching-model/
 	Include demos from SkeletonBP.
 	Include new menu effect demo.
 	Configure build script.
