@@ -1,6 +1,6 @@
 ToDo
 ####
-	Fully switch to safe branching model: http://nvie.com/posts/a-successful-git-branching-model/
+	Fully switch to safe branching model: http://nvie.com/posts/a-successful-git-branching-model/ (Master>Develop>Feature)
 	Include 3D rollover demos.
 	Include new menu effect demo.
 	Configure build script.
