@@ -32,7 +32,7 @@
 						<li><a href="demo-fancybox.asp">Fancybox</a></li>
 						<li class="divider"></li>
 						<li class="nav-header">CSS3</li>
-						<li><a href="3drollovers.asp">3D Rollovers</a></li>
+						<li><a href="demo-3d-rollover.asp">3D Rollovers</a></li>
 					</ul>
 				</li>
 			</ul>
