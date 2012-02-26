@@ -1,7 +1,7 @@
 ToDo
 ####
 	Fully switch to safe branching model: http://nvie.com/posts/a-successful-git-branching-model/
-	Include demos from SkeletonBP.
+	Include 3D rollover demos.
 	Include new menu effect demo.
 	Configure build script.
 	Separate global modal into include file (currently in footer.asp)
