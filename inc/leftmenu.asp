@@ -11,8 +11,8 @@
 		<li><a href="bs/docs/download.html" target="_blank" class="hastooltip" title="Download the full repository or customize your entire Bootstrap build by selecting only the components, javascript plugins, and assets you need."><i class="icon-info-sign"></i> Customise</a></li>
 		<li><a href="bs/docs/examples.html" target="_blank" class="hastooltip" title="We've included a few basic examples as starting points for your work with Bootstrap. We encourage folks to iterate on these examples and not simply use them as an end result."><i class="icon-info-sign"></i> Examples</a></li>
 		<li class="nav-header">Demos</li>
-        <li><a href="blockfader.asp" class="hastooltip" title="Not yet implemented"><i class="icon-play"></i> Blockfader</a></li>
-        <li><a href="fancybox.asp" class="hastooltip" title="Not yet implemented"><i class="icon-play"></i> Fancybox</a></li>
+        <li><a href="demo-blockfader.asp" class="hastooltip" title="Not yet implemented"><i class="icon-play"></i> Blockfader</a></li>
+        <li><a href="demo-fancybox.asp" class="hastooltip" title="Fancybox jQuery plugin"><i class="icon-play"></i> Fancybox</a></li>
         <li><a href="#" class="hastooltip" title="Not yet implemented"><i class="icon-play"></i> Demo</a></li>
         <li><a href="#" class="hastooltip" title="Not yet implemented"><i class="icon-play"></i> Demo</a></li>
     </ul>

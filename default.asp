@@ -61,7 +61,7 @@ strTweetText = strPageName
 							</ul>
 						</li>
 					</ul>
-					<p>Full details are included in the <a href="readme.txt" rel="tooltip" title="Read the fricken manual" target="_blank">README</a>.</p>
+					<p>Full details are included in the <a href="readme.txt" class="hastooltip" title="Read the fricken manual" target="_blank">README</a>.</p>
 				</article>
 			</div>
 			

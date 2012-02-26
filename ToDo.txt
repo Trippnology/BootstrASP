@@ -1,13 +1,15 @@
 ToDo
 ####
-	Make form submission messages appear in popup rather than new page (modal?).
 	Include demos from SkeletonBP.
 	Include new menu effect demo.
 	Configure build script.
 	Separate global modal into include file (currently in footer.asp)
-	Look at integrating https://github.com/samuelcotterall/touchdown
-	Look at integrating OAuth https://github.com/sdesapio/Classic-ASP-VBScript-OAuth
-	Look at integrating Sequence https://github.com/IanLunn/Sequence
-	Look at integrating Dynamic-Carousel https://github.com/JosepMartins/Dynamic-Carousel
-	Look at integrating Textualizer https://github.com/krisk/textualizer
+	Reformat this file and Readme.txt with Markdown (ready for Github)
+	
+Potential Submodules:	
+	Touchdown https://github.com/samuelcotterall/touchdown
+	OAuth https://github.com/sdesapio/Classic-ASP-VBScript-OAuth
+	Sequence https://github.com/IanLunn/Sequence
+	Dynamic-Carousel https://github.com/JosepMartins/Dynamic-Carousel
+	Textualizer https://github.com/krisk/textualizer
 	Chosen https://github.com/harvesthq/chosen/
