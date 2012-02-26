@@ -1,16 +1,24 @@
-ToDo
+Bugs
 ####
-	Fully switch to safe branching model: http://nvie.com/posts/a-successful-git-branching-model/ (Master>Develop>Feature)
-	Include 3D rollover demos.
-	Include new menu effect demo.
+	Mousewheel only scrolls one way in Fancybox.
+
+Features
+########
+	3D rollover demos.
+	New menu effect demo.
 	Configure build script.
 	Separate global modal into include file (currently in footer.asp)
 	Reformat this file and Readme.txt with Markdown (ready for Github)
 	
-Potential Submodules:	
+Potential Submodules
+####################	
 	Touchdown https://github.com/samuelcotterall/touchdown
 	OAuth https://github.com/sdesapio/Classic-ASP-VBScript-OAuth
 	Sequence https://github.com/IanLunn/Sequence
 	Dynamic-Carousel https://github.com/JosepMartins/Dynamic-Carousel
 	Textualizer https://github.com/krisk/textualizer
 	Chosen https://github.com/harvesthq/chosen/
+
+Other
+#####
+	Fully switch to safe branching model: http://nvie.com/posts/a-successful-git-branching-model/ ( Master>Develop>Feature )
