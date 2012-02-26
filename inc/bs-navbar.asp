@@ -28,8 +28,8 @@
 					<a href="#demosmenu" class="dropdown-toggle" data-toggle="dropdown">Demos<b class="caret"></b></a>
 					<ul class="dropdown-menu nav-list">
 						<li class="nav-header">jQuery</li>
-						<li><a href="blockfader.asp">Blockfader</a></li>
-						<li><a href="fancybox.asp">Fancybox</a></li>
+						<li><a href="demo-blockfader.asp">Blockfader</a></li>
+						<li><a href="demo-fancybox.asp">Fancybox</a></li>
 						<li class="divider"></li>
 						<li class="nav-header">CSS3</li>
 						<li><a href="3drollovers.asp">3D Rollovers</a></li>
