@@ -22,3 +22,4 @@ Potential Submodules
 Other
 #####
 	Fully switch to safe branching model: http://nvie.com/posts/a-successful-git-branching-model/ ( Master>Develop>Feature )
+	Make sure bitbucket repo is up to date.
