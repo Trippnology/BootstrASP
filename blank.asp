@@ -1,11 +1,11 @@
 <%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 <!-- #include file="inc/strings.asp" -->
 <%
-strPageName = "BootstrASP"
-strCanonical = "http://localhost/bootstrasp/default.asp"
-strDescription = "A standards compliant framework to jump start our web projects."
-strKeywords = "keyword1, keyword2, keyword3"
-strStylesheet = "bootstrap.css"
+strPageName = "BootstrASP":
+strCanonical = "http://localhost/bootstrasp/default.asp":
+strDescription = "A standards compliant framework to jump start our web projects.":
+strKeywords = "keyword1, keyword2, keyword3":
+strStylesheet = "bootstrap.css":
 strTweetText = strPageName
 %>
 <!-- #include file="setup.asp" -->

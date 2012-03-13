@@ -1,11 +1,11 @@
 <%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 <!-- #include file="inc/strings.asp" -->
 <%
-strPageName = "Blockfader Demo"
-strCanonical = "http://localhost/bootstrasp/demo-blockfader.asp"
-strDescription = "A demo of the Blockfader jQuery plugin"
-strKeywords = "keyword1, keyword2, keyword3"
-strStylesheet = "bootstrap.css"
+strPageName = "Blockfader Demo":
+strCanonical = "http://localhost/bootstrasp/demo-blockfader.asp":
+strDescription = "A demo of the Blockfader jQuery plugin":
+strKeywords = "keyword1, keyword2, keyword3":
+strStylesheet = "bootstrap.css":
 strTweetText = strPageName
 %>
 <!-- #include file="setup.asp" -->

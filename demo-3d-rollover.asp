@@ -1,11 +1,11 @@
 <%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 <!-- #include file="inc/strings.asp" -->
 <%
-strPageName = "3D Rollover Demo"
-strCanonical = "http://localhost/bootstrasp/demo-3d-rollover.asp"
-strDescription = "A nice 3D rollover effect"
-strKeywords = ""
-strStylesheet = "bootstrap.css"
+strPageName = "3D Rollover Demo":
+strCanonical = "http://localhost/bootstrasp/demo-3d-rollover.asp":
+strDescription = "A nice 3D rollover effect":
+strKeywords = "":
+strStylesheet = "bootstrap.css":
 strTweetText = strPageName
 %>
 <!-- #include file="setup.asp" -->

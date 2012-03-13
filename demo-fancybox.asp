@@ -1,11 +1,11 @@
 <%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 <!-- #include file="inc/strings.asp" -->
 <%
-strPageName = "Fancybox Demo"
-strCanonical = "http://localhost/bootstrasp/demo-fancybox.asp"
-strDescription = "Demo of the Fancybox jQuery plugin"
-strKeywords = ""
-strStylesheet = "bootstrap.css"
+strPageName = "Fancybox Demo":
+strCanonical = "http://localhost/bootstrasp/demo-fancybox.asp":
+strDescription = "Demo of the Fancybox jQuery plugin":
+strKeywords = "":
+strStylesheet = "bootstrap.css":
 strTweetText = strPageName
 %>
 <!-- #include file="setup.asp" -->
