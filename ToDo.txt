@@ -1,10 +1,10 @@
 Bugs
 ####
-	Mousewheel only scrolls one way in Fancybox.
+	See: https://bitbucket.org/Trippnology/bootstrasp/issues
 
 Features
 ########
-	3D rollover demos.
+	Add Print styles
 	New menu effect demo.
 	Configure build script.
 	Separate global modal into include file (currently in footer.asp)
