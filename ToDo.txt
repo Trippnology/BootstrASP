@@ -4,8 +4,6 @@ Bugs
 
 Features
 ########
-<<<<<<< HEAD
-=======
 	Add Print styles
 	New menu effect demo.
 	Configure build script.
@@ -25,4 +23,3 @@ Potential Submodules
 Other
 #####
 	Fully switch to safe branching model: http://nvie.com/posts/a-successful-git-branching-model/ ( Master>Develop>Feature )
-	Make sure bitbucket repo is up to date.
