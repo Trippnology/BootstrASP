@@ -9,6 +9,8 @@ Features
 	Configure build script.
 	Separate global modal into include file (currently in footer.asp)
 	Reformat this file and Readme.txt with Markdown (ready for Github)
+	Collect IP on contact form (which needs updating)
+	Add string for "slug" to be added as a class to <body>
 	
 Potential Submodules
 ####################	
