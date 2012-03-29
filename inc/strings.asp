@@ -5,6 +5,7 @@ strDomain = "http://localhost/bootstrasp/"
 strAdminEmail = "mail@trippnology.com"
 strSiteName = "BootstrASP"
 strTagline = "Twitter Bootstrap with some ASP goodies"
+strUserIP = Request.ServerVariables("REMOTE_ADDR")
 
 'Page Specific
 'You could set default values here and overide them per page
@@ -35,10 +36,10 @@ strSubject = "Contact from your website"
 strMsgHeader = "Someone has sent you a message:"
 
 'Set fields to use here
-DIM strName, strEmail, strTelephone, strMessage
+DIM strName, strEmail, strTelephone, strMessage, strUserIP
 strName = request.form("Name")
 strEmail = request.form("Email")
 strTelephone = request.form("Telephone")
 strMessage = request.form("Message")
-
+strUserIP = Request.ServerVariables("REMOTE_ADDR")
 %>

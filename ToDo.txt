@@ -4,11 +4,11 @@ Bugs
 
 Features
 ########
-	Add Print styles
 	New menu effect demo.
 	Configure build script.
-	Separate global modal into include file (currently in footer.asp)
 	Reformat this file and Readme.txt with Markdown (ready for Github)
+	Collect IP on contact form (which needs updating)
+	Add string for "slug" to be added as a class to <body>
 	
 Potential Submodules
 ####################	
@@ -18,7 +18,8 @@ Potential Submodules
 	Dynamic-Carousel https://github.com/JosepMartins/Dynamic-Carousel
 	Textualizer https://github.com/krisk/textualizer
 	Chosen https://github.com/harvesthq/chosen/
-
+	SEO Checklist https://github.com/benhowdle89/Seo.js
+	
 Other
 #####
 	Fully switch to safe branching model: http://nvie.com/posts/a-successful-git-branching-model/ ( Master>Develop>Feature )
