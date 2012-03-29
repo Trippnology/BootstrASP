@@ -9,9 +9,9 @@
 <script>window.jQuery || document.write("<script src='js/libs/jquery.mousewheel-3.0.4.pack.js'>\x3C/script>")</script>
 
 <%' Submodules %>
-<!-- FitText -->
+<%' FitText %>
 <script src="fittext/jquery.fittext.js"></script>
-<!-- Bootstrap -->
+<%' Bootstrap %>
 <script src="<%=strBSJS%>bootstrap-transition.js"></script>
 <script src="<%=strBSJS%>bootstrap-alert.js"></script>
 <script src="<%=strBSJS%>bootstrap-modal.js"></script>
@@ -35,16 +35,15 @@
 <%' Global jQuery settings %>
 <script>
 	$(document).ready(function() {
-		// FitText
+		/* FitText */
 		$("#pagetitle").fitText(0.8, { minFontSize: '44px' });
-		// Bootstrap
+		/* Bootstrap */
 		$('.dropdown-toggle').dropdown();
 		$('a.hastooltip').tooltip({
 			'placement' : 'right'
 		});
 		$('#globalmodal').modal('hide')
-		
-		// Fancybox
+		/* Fancybox */
 		$("#fancybox-trigger").fancybox({
 			'titlePosition'		: 'inside',
 			'transitionIn'		: 'elastic',
@@ -70,3 +69,6 @@
 	g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
 	s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
+
+<%' Global Modal Window %>
+<!-- #include file="inc/global-modal.asp" -->
