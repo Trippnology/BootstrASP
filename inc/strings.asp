@@ -1,8 +1,8 @@
 <%
 'Global
-Dim strDomain, strAdminEmail, strSiteName, strTagline
+Dim strDomain, strAdminEmail, strSiteName, strTagline, strUserIP
 strDomain = "http://localhost/bootstrasp/"
-strAdminEmail = "mail@trippnology.com"
+strAdminEmail = ""
 strSiteName = "BootstrASP"
 strTagline = "Twitter Bootstrap with some ASP goodies"
 strUserIP = Request.ServerVariables("REMOTE_ADDR")
@@ -29,17 +29,16 @@ Dim Mailer, strMsgHeader, qryItem, strMsgInfo
 Dim strFromName, strFromAdd, strMailHost, strRecipientName, strRecipientEmail, strSubject
 strFromName = strSiteName
 strFromAdd = strAdminEmail
-strMailHost = "auth.smtp.1and1.co.uk"
+strMailHost = ""
 strRecipientName = "Trippnology"
 strRecipientEmail = strAdminEmail
 strSubject = "Contact from your website"
 strMsgHeader = "Someone has sent you a message:"
 
 'Set fields to use here
-DIM strName, strEmail, strTelephone, strMessage, strUserIP
+DIM strName, strEmail, strTelephone, strMessage
 strName = request.form("Name")
 strEmail = request.form("Email")
 strTelephone = request.form("Telephone")
 strMessage = request.form("Message")
-strUserIP = Request.ServerVariables("REMOTE_ADDR")
 %>
