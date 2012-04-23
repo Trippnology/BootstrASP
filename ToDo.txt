@@ -9,6 +9,8 @@ Features
 	Reformat this file and Readme.txt with Markdown (ready for Github)
 	Collect IP on contact form (which needs updating)
 	Add string for "slug" to be added as a class to <body>
+	Add OpenGraph data grabbed from strings (use strPageTitle etc)
+	Add Shema.org data to contact.asp
 	
 Potential Submodules
 ####################	
@@ -19,6 +21,7 @@ Potential Submodules
 	Textualizer https://github.com/krisk/textualizer
 	Chosen https://github.com/harvesthq/chosen/
 	SEO Checklist https://github.com/benhowdle89/Seo.js
+	Riloadr https://github.com/tubalmartin/riloadr
 	
 Other
 #####
