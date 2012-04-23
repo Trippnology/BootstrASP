@@ -1,6 +1,5 @@
-#BootstrASP
-A simple framework built with Bootstrap and ASP
-Version: 0.2
+#BootstrASP v0.2
+A simple framework built with Bootstrap and ASP  
 
 ##Submodules
 - [Bootstrap](https://github.com/twitter/bootstrap.git)
