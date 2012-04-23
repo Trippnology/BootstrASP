@@ -1,15 +1,14 @@
+#About
 A simple framework built with Bootstrap and ASP
 Version: 0.1
 
-Submodules
-##########
-	Bootstrap - https://github.com/twitter/bootstrap.git
-	FitText - https://github.com/davatron5000/FitText.js.git
-	HTML5 Boilerplate Build Script - https://github.com/h5bp/ant-build-script.git
-	Modernizr - https://github.com/Modernizr/Modernizr.git
+##Submodules
+	+[Bootstrap](https://github.com/twitter/bootstrap.git)
+	+[FitText](https://github.com/davatron5000/FitText.js.git)
+	+[HTML5 Bilerplate Build Script](https://github.com/h5bp/ant-build-script.git)
+	+[Modernizr](https://github.com/Modernizr/Modernizr.git)
 
-Includes
-########
+###Includes
 Setup.asp - The entire <head></head>. Do not put scripts here unless necessary (use setup2.asp).
 	Title - Grabbed from strings: [strPageName - strSiteName]
 	META Keywords and Description - Grabbed from strings: strKeywords and strDescription
@@ -66,12 +65,10 @@ Inc/strings.asp - Where all variables are defined. You can set some global varia
 	strFacebookURL - URL of your Facebook page - Better to set this in strings.asp but you can set this to a null value to 'Like' the current page.
 	strTweetText - Text used when the tweet button is clicked. Set to strPageName on each page by default.
 
-CSS
-###
+####CSS
 	style.css - Master stylesheet for BootstrASP
 	
-Javascript
-##########
+#####Javascript
 Script.js
 	A place to put non jQuery scripts.
 	Add class .current - Links pointing to the current page get an extra class: .current
@@ -81,7 +78,5 @@ Plugins.js
 	BlockFader - Cycles images with a nice pixel transition effect. See blockfader.asp for demo.
 	Fancybox - Slick pop up overlay for any kind of content. See fancybox.asp for demo. One global window is embedded in inc/footer.asp settings for it are in setup2.asp
 
-Back End
-########
+######Back End
 	Formtoemail.asp - Processes contact forms. Most settings are in inc/strings.asp.
-
