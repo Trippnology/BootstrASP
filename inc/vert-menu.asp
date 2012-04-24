@@ -20,4 +20,3 @@
         <li><a href="template-contact.asp" class="hastooltip" title="Example contact page with Microdata and a contact form"><i class="icon-th"></i> Contact Page</a>
     </ul>
 </nav>
-<!-- #include file="share.asp" -->

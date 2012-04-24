@@ -17,6 +17,7 @@ strTweetText = strPageName
 		<div class="row-fluid tiltwrapper">
 			<div id="left" class="span2 tiltright shadowleft roundlrg">
 			<!-- #include file="inc/vert-menu.asp" -->
+			<!-- #include file="inc/share.asp" -->
 			</div>
 			
 			<div class="span7" id="main" role="main">
@@ -33,36 +34,37 @@ strTweetText = strPageName
 					<p>Submodules:</p>
 					<ul>
 						<li><a rel="external" href="https://github.com/twitter/bootstrap.git">Bootstrap</a> <code>(<a rel="external" href="https://github.com/twitter/bootstrap/blob/master/LICENSE">Apache</a>)</code>
+						<li><a rel="external" href="https://github.com/Modernizr/Modernizr.git">Modernizr</a> <code>(<a rel="external" href="http://modernizr.com/license/">MIT</a>)</code>
 						<li><a rel="external" href="https://github.com/davatron5000/FitText.js.git">FitText</a> <code>(<a rel="external" href="http://sam.zoy.org/wtfpl/">WTFPL</a>)</code>
-						<li><a rel="external" href="https://github.com/h5bp/ant-build-script.git">HTML5 Boilerplate Build Script</a>
-						<li><a rel="external" href="https://github.com/Modernizr/Modernizr.git">Modernizr</a>
+						<li><a rel="external" href="https://github.com/h5bp/ant-build-script.git">H5BP Ant Build Script</a>
 					</ul>
 
 					<p>Javascript:</p>
 					<ul>
 						<li><a rel="external" href="http://jquery.com/">jQuery</a> <code>(<a rel="external" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL</a>)</code> and these plugins:
 							<ul>
-								<li><a rel="external" href="http://gsgd.co.uk/sandbox/jquery/easing/"></a>jQuery Easing
+								<li><a rel="external" href="http://gsgd.co.uk/sandbox/jquery/easing/">jQuery Easing</a>
 								<li><a rel="external" href="http://archive.plugins.jquery.com/project/mousewheel">jQuery Mousewheel</a> <code>(<a rel="external" href="https://github.com/brandonaaron/jquery-mousewheel/blob/master/LICENSE.txt">&copy;Brandon Aaron</a>)</code>
+								<li><a rel="external" href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/">jQuery Validation</a> <code>(<a rel="external" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL</a>)</code>
 								<li><a rel="external" href="http://www.codefocus.ca/goodies/blockfader">BlockFader</a> <code>(<a rel="external" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL</a>)</code>
 								<li><a rel="external" href="http://fancybox.net/">Fancybox</a> <code>(<a rel="external" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL</a>)</code>
 								<li>ExternalLinks
 							</ul>
 						</li>
-						<li>Google Analytics
-						<li>Google Fonts
+						<li><a rel="external" href="http://www.google.com/analytics/">Google Analytics</a>
+						<li><a rel="external" href="http://www.google.com/webfonts">Google Fonts</a>
 					</ul>
 
 					<p>Social:</p>
 					<ul>
-						<li>Twitter Tweet Button
-						<li>Facebook Like Button
-						<li>AddThis Button
+						<li><a rel="external" href="http://twitter.com/about/resources/buttons">Twitter Tweet Button</a>
+						<li><a rel="external" href="http://developers.facebook.com/docs/reference/plugins/like/">Facebook Like Button</a>
+						<li><a rel="external" href="http://www.addthis.com/">AddThis Button</a>
 					</ul>
 
 					<p>Development</p>
 					<ul>
-						<li>Live.js
+						<li><a rel="external" href="http://livejs.com/">Live.js</a> <code>(<a rel="external" href="http://livejs.com/license">MIT</a>)</code>
 					</ul>
 
 					<p>Full details are included in the <a href="Readme.md" class="hastooltip" title="Read the fricken manual" target="_blank">Readme file</a>.</p>
