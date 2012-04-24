@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 { font-family:'Squada One', Verdana, Geneva, sans-serif; 
 /* Section styling */
 /* ######################################################### */
 body { 
-	padding-top:40px; /* To account for the static navbar */
+	padding-top:50px; /* To account for the static navbar */
 }
 header[role=banner] { } /* Alternative to static navbar */
 #sitetitlebox { } /* Alternative to static navbar */
@@ -45,29 +45,29 @@ img.right	{ margin:0 0 0 20px; }
 .roundsm {
 	-webkit-border-radius:5px;
 	   -moz-border-radius:5px;
-		    border-radius:5px;
+		      border-radius:5px;
 	-webkit-background-clip: padding-box;
 	   -moz-background-clip: padding;
-	   		background-clip: padding-box;
+	   		  background-clip: padding-box;
 }
 .roundlrg {
 	-webkit-border-radius:10px;
 	   -moz-border-radius:10px;
-		    border-radius:10px;	
+		      border-radius:10px;	
 	-webkit-background-clip: padding-box;
 	   -moz-background-clip: padding;
-	   		background-clip: padding-box;
+	   		  background-clip: padding-box;
 }
 /* Box Shadows */
 .shadowleft {
 	-webkit-box-shadow: -5px 5px 5px #ccc; 
 	   -moz-box-shadow: -5px 5px 5px #ccc; 
-		  	box-shadow: -5px 5px 5px #ccc; 
+          box-shadow: -5px 5px 5px #ccc; 
 }
 .shadowright {
 	-webkit-box-shadow: 5px 5px 5px #ccc; 
 	   -moz-box-shadow: 5px 5px 5px #ccc; 
-		  	box-shadow: 5px 5px 5px #ccc; 
+          box-shadow: 5px 5px 5px #ccc; 
 }
 
 
@@ -384,59 +384,59 @@ img.right	{ margin:0 0 0 20px; }
 .tiltwrapper {
   -webkit-perspective: 1500px;
      -moz-perspective: 800px;
-      perspective: 800px;
+          perspective: 800px;
 }
 .tiltleft {
   -webkit-transform: rotateY(-15deg);
      -moz-transform: rotateY(-15deg);
-      transform: rotateY(-15deg);
+          transform: rotateY(-15deg);
   -webkit-transition: -webkit-transform 1s;
      -moz-transition: -moz-transform 1s;
-      transition: all 1s;
+          transition: all 1s;
 }
 .tiltleft:hover {
     -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
        -moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
 .tiltright {
   -webkit-transform: rotateY(15deg);
      -moz-transform: rotateY(15deg);
-      transform: rotateY(15deg);
+          transform: rotateY(15deg);
   -webkit-transition: -webkit-transform 1s;
      -moz-transition: -moz-transform 1s;
-      transition: all 1s;
+          transition: all 1s;
 }
 .tiltright:hover {
     -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
        -moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
 .tiltback {
   -webkit-transform: rotateX(15deg);
      -moz-transform: rotateX(15deg);
-      transform: rotateX(15deg);
+          transform: rotateX(15deg);
   -webkit-transition: -webkit-transform 1s;
      -moz-transition: -moz-transform 1s;
-      transition: all 1s;
+          transition: all 1s;
 }
 .tiltback:hover {
     -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
        -moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
 .tiltforward {
   -webkit-transform: rotateX(-15deg);
      -moz-transform: rotateX(-15deg);
-      transform: rotateX(-15deg);
+          transform: rotateX(-15deg);
   -webkit-transition: -webkit-transform 1s;
      -moz-transition: -moz-transform 1s;
-      transition: all 1s;
+          transition: all 1s;
 }
 .tiltforward:hover {
     -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
        -moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
 /* End Tilt Effect */
 
@@ -577,7 +577,7 @@ img.right	{ margin:0 0 0 20px; }
 }
 .box .back {
   -webkit-transform: rotateY(180deg) translate3d(0,0,100px)  scale(0.9,0.9);
-     -moz-transform: rotateY(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+     -moz-transform: rotateY(180deg) translate3d(0,0,100px)  scale(0.85,0.85);
       -ms-transform: rotateY(180deg) translate3d(0,0,100px)  scale(0.85,0.85);
        -o-transform: rotateY(180deg) translate3d(0,0,100px)  scale(0.85,0.85);
           transform: rotateY(180deg) translate3d(0,0,100px)  scale(0.85,0.85);
@@ -613,7 +613,7 @@ img.right	{ margin:0 0 0 20px; }
      -moz-animation: batman 1s 2 alternate linear;
       -ms-animation: batman 1s 2 alternate linear;
        -o-animation: batman 1s 2 alternate linear;
-       animation: batman 1s 2 alternate linear;
+          animation: batman 1s 2 alternate linear;
 }
 @-moz-keyframes batman {
   0% { -moz-transform: scale(1,1) rotateZ(0); }
@@ -675,20 +675,20 @@ img.right	{ margin:0 0 0 20px; }
   box-shadow: 4px 4px 10px rgba( 0, 0, 0, 0.6 );
 
   /* define a perspective of 800 pixels */
-  -moz-perspective:    800px;
   -webkit-perspective: 800px;
-  -ms-perspective:     800px;
-  -o-perspective:      800px;
-  perspective:         800px;
+     -moz-perspective: 800px;
+      -ms-perspective: 800px;
+       -o-perspective: 800px;
+          perspective: 800px;
 }
 
 .image3d img {
   /* smoothly transition any changes to the image in a second */
   -webkit-transition: all 1s;
-  -moz-transition:    all 1s;
-  -o-transition:      all 1s;
-  -ms-transition:     all 1s;
-  transition:         all 1s;
+     -moz-transition: all 1s;
+       -o-transition: all 1s;
+      -ms-transition: all 1s;
+          transition: all 1s;
 }
 .image3d figure { margin:0; }
 .image3d figure:hover img,.image3d figure:focus img  {
@@ -714,18 +714,18 @@ img.right	{ margin:0 0 0 20px; }
   bottom: 10px;
   width: 230px;
   -webkit-transition: all 1s;
-  -moz-transition:    all 1s;
-  -ms-transition:     all 1s;
-  -o-transition:      all 1s;
-  transition:         all 1s;
+     -moz-transition: all 1s;
+      -ms-transition: all 1s;
+       -o-transition: all 1s;
+          transition: all 1s;
 
 }
 .image3d:hover figcaption, .image3d:focus figcaption {
   -webkit-transition: all 1s;
-  -moz-transition:    all 1s;
-  -ms-transition:     all 1s;
-  -o-transition:      all 1s;
-  transition:         all 1s;
+     -moz-transition: all 1s;
+      -ms-transition: all 1s;
+       -o-transition: all 1s;
+          transition: all 1s;
   left: 80px;
 }
 .image3d figcaption strong {
