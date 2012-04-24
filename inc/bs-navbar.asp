@@ -10,7 +10,7 @@
 		<a class="brand" href="<%=strDomain%>" title="<%=strSiteName%>"><%=strSiteName%></a>
 		<div class="nav-collapse">
 			<ul class="nav">
-				<li><a href="default.asp" title="Home">Home</a></li>
+				<li><a href="start.asp" title="Home">Home</a></li>
 				<li class="dropdown" id="bootstrapmenu">
 					<a href="#bootstrapmenu" class="dropdown-toggle" data-toggle="dropdown">Bootstrap<b class="caret"></b></a>
 						<ul class="dropdown-menu">
