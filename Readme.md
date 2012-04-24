@@ -1,4 +1,4 @@
-#BootstrASP v0.2
+#BootstrASP v0.3
 A simple framework built with Bootstrap and ASP  
 
 ##Submodules
