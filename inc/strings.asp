@@ -12,6 +12,7 @@ strUserIP = Request.ServerVariables("REMOTE_ADDR")
 Dim strPageName, strCanonical, strDescription, strKeywords, strStylesheet
 
 'Bootstrap
+Dim strBSCSS, strBSImg, strBSJS
 strBSCSS = "bs/docs/assets/css/"
 strBSImg = "bs/docs/assets/img/"
 strBSJS = "bs/docs/assets/js/"

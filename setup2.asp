@@ -62,6 +62,9 @@
   ' Remove this reference for production - integrate the contents of inc/dev.asp or lose it! %>
 <!-- #include file="inc/dev.asp" -->
 
+<%' Global Modal Window %>
+<!-- #include file="inc/global-modal.asp" -->
+
 <%' Google Analytics %>
 <script>
 	var _gaq=[["_setAccount","<%=strGoogleAnalID%>"],["_trackPageview"]];
@@ -69,6 +72,3 @@
 	g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
 	s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
-
-<%' Global Modal Window %>
-<!-- #include file="inc/global-modal.asp" -->
