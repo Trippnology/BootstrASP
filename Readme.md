@@ -1,6 +1,6 @@
-#BootstrASP v0.3.1
-A simple framework built with Bootstrap and ASP 
-Licensed un [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/uk/)
+#BootstrASP v0.3.2
+A simple framework built with Bootstrap and ASP  
+Licensed under [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/uk/)
 
 ##Submodules
 - [Bootstrap](https://github.com/twitter/bootstrap.git)
