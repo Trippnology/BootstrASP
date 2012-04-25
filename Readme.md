@@ -23,7 +23,7 @@ Setup2.asp - All script files should be launched from here.
 - jQuery - Grabbed from CDN with a local fallback
 - jQuery easing - Grabbed from CDN with a local fallback (used by Fancybox)
 - jQuery mousewheel - Grabbed from CDN with a local fallback (used by Fancybox)
-- Submodules
+- Submodules  
         - Fittext        
         - Bootstrap scripts
 - js/plugins.js A place for your own jQuery plugins
