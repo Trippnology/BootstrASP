@@ -14,10 +14,9 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=<%=strGoogleFonts%>">
 	<!-- Next line is old method. Left for possible future use -->
     <!--<link rel="stylesheet" href="css/<%=strStylesheet%>">-->
-	<link href="<%=strBSCSS%>bootstrap.css" rel="stylesheet">
-    <link href="<%=strBSCSS%>bootstrap-responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="<%=strBSCSS%>bootstrap.css">
+    <link rel="stylesheet" href="<%=strBSCSS%>bootstrap-responsive.css">
     <link rel="stylesheet" href="css/style.css"><!-- Placed last to override all other styles -->
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="canonical" href="<%=strDomain & strCanonical%>">
     <link rel="author" href="<%=strDomain%>humans.txt">
     

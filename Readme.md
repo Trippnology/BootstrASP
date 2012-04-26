@@ -1,4 +1,4 @@
-#BootstrASP v0.3.2
+#BootstrASP v0.3.3
 A simple framework built with Bootstrap and ASP  
 Licensed under [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/uk/)
 
@@ -23,7 +23,7 @@ Setup2.asp - All script files should be launched from here.
 - jQuery - Grabbed from CDN with a local fallback
 - jQuery easing - Grabbed from CDN with a local fallback (used by Fancybox)
 - jQuery mousewheel - Grabbed from CDN with a local fallback (used by Fancybox)
-- Submodules
+- Submodules  
         - Fittext        
         - Bootstrap scripts
 - js/plugins.js A place for your own jQuery plugins
