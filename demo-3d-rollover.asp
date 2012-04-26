@@ -164,7 +164,7 @@ strTweetText = strPageName
 
 			
 			<div id="right" class="span3">
-			<!-- #include file="inc/rightmenu.asp" -->
+			<!-- #include file="inc/sidebar.asp" -->
 			</div>
 		</div>
 		

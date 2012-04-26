@@ -28,7 +28,7 @@ strTweetText = strPageName
 			</div>
 			
 			<div id="right" class="span3 tiltleft">
-			<!-- #include file="inc/rightmenu.asp" -->
+			<!-- #include file="inc/sidebar.asp" -->
 			</div>
 		</div>
 		
