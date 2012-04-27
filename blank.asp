@@ -2,7 +2,7 @@
 <!-- #include file="inc/strings.asp" -->
 <%
 strPageName = "BootstrASP":
-strCanonical = "http://localhost/bootstrasp/default.asp":
+strCanonical = "blank.asp":
 strDescription = "A standards compliant framework to jump start our web projects.":
 strKeywords = "keyword1, keyword2, keyword3":
 strStylesheet = "bootstrap.css":
@@ -12,9 +12,9 @@ strTweetText = strPageName
 
 <body>
 	<!-- #include file="inc/bs-navbar.asp" -->
-	<div class="container-fluid">
+	<div class="container">
 		
-		<div class="row-fluid tiltwrapper">
+		<div class="row tiltwrapper">
 			<div id="left" class="span2 tiltright">
 			<!-- #include file="inc/vert-menu.asp" -->
 			<!-- #include file="inc/share.asp" -->
@@ -32,7 +32,7 @@ strTweetText = strPageName
 			</div>
 		</div>
 		
-		<div class="row-fluid">
+		<div class="row">
 			<div class="span12">
 			<!-- #include file="inc/footer.asp" -->
 			</div>
