@@ -14,7 +14,7 @@
         <li><a href="demo-blockfader.asp" class="hastooltip" title="Blockfader jQuery plugin"><i class="icon-play"></i> Blockfader</a>
         <li><a href="demo-fancybox.asp" class="hastooltip" title="Fancybox jQuery plugin"><i class="icon-play"></i> Fancybox</a>
         <li><a href="demo-3d-rollover.asp" class="hastooltip" title="3D rollover effect in CSS3"><i class="icon-play"></i> 3D Rollover</a>
-        <li><a href="#" class="hastooltip" title="Not yet implemented"><i class="icon-play"></i> Demo</a>
+        <li><a href="demo-bootswatch.asp" class="hastooltip" title="Bootswatch - A collection of free themes for your Bootstap site"><i class="icon-play"></i> Bootswatch</a>
 
         <li class="nav-header">Example Pages
         <li><a href="template-contact.asp" class="hastooltip" title="Example contact page with Microdata and a contact form"><i class="icon-th"></i> Contact Page</a>
