@@ -5,7 +5,7 @@ strPageName = "BootstrASP":
 strCanonical = "http://localhost/bootstrasp/default.asp":
 strDescription = "A standards compliant framework to jump start our web projects.":
 strKeywords = "keyword1, keyword2, keyword3":
-strBootswatch = "amelia":
+strBootswatch = "cyborg":
 strTweetText = strPageName
 %>
 <!-- #include file="setup.asp" -->
