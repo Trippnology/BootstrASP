@@ -9,7 +9,7 @@ strUserIP = Request.ServerVariables("REMOTE_ADDR")
 
 'Page Specific
 'You could set default values here and overide them per page
-Dim strPageName, strCanonical, strDescription, strKeywords, strStylesheet
+Dim strPageName, strCanonical, strDescription, strKeywords, strBootswatch
 
 'Bootstrap
 Dim strBSCSS, strBSImg, strBSJS
