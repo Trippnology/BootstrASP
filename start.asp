@@ -5,16 +5,15 @@ strPageName = "BootstrASP":
 strCanonical = "http://localhost/bootstrasp/default.asp":
 strDescription = "A standards compliant framework to jump start our web projects.":
 strKeywords = "keyword1, keyword2, keyword3":
-strStylesheet = "bootstrap.css":
 strTweetText = strPageName
 %>
 <!-- #include file="setup.asp" -->
 
 <body>
 	<!-- #include file="inc/bs-navbar.asp" -->
-	<div class="container-fluid">
+	<div class="container">
 		
-		<div class="row-fluid tiltwrapper">
+		<div class="row tiltwrapper">
 			<div id="left" class="span2 tiltright shadowleft roundlrg">
 			<!-- #include file="inc/vert-menu.asp" -->
 			<!-- #include file="inc/share.asp" -->
@@ -42,6 +41,11 @@ strTweetText = strPageName
 						<li><a rel="external" href="https://github.com/h5bp/ant-build-script.git">H5BP Ant Build Script</a>
 					</ul>
 
+					<p>CSS</p>
+					<ul>
+						<li><a rel="external" href="http://bootswatch.com/">Bootswatch</a> <a class="label" rel="external" href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache</a>
+						<li><a rel="external" href="http://www.google.com/webfonts">Google Fonts</a>
+					</ul>
 					<p>Javascript:</p>
 					<ul>
 						<li><a rel="external" href="http://jquery.com/">jQuery</a> <a class="label" rel="external" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL</a> and these plugins:
@@ -55,7 +59,6 @@ strTweetText = strPageName
 							</ul>
 						</li>
 						<li><a rel="external" href="http://www.google.com/analytics/">Google Analytics</a>
-						<li><a rel="external" href="http://www.google.com/webfonts">Google Fonts</a>
 					</ul>
 
 					<p>Social:</p>
@@ -79,7 +82,7 @@ strTweetText = strPageName
 			</div>
 		</div>
 		
-		<div class="row-fluid">
+		<div class="row">
 			<div class="span12">
 			<!-- #include file="inc/footer.asp" -->
 			</div>

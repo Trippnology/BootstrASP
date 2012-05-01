@@ -33,6 +33,7 @@
 							<li class="divider"></li>
 							<li class="nav-header">CSS3</li>
 							<li><a href="demo-3d-rollover.asp">3D Rollovers</a></li>
+							<li><a href="demo-bootswatch.asp" class="hastooltip" title="Bootswatch - A collection of free themes for your Bootstap site">Bootswatch</a></li>
 						</ul>
 					</li>
 				</ul>
