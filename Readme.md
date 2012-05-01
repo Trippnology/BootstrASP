@@ -1,4 +1,4 @@
-#BootstrASP v0.3.3
+#BootstrASP v0.3.4
 A simple framework built with Bootstrap and ASP  
 Licensed under [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/uk/)
 
@@ -14,8 +14,9 @@ Setup.asp - The entire <head></head>. Do not put scripts here unless necessary (
 + Title - Grabbed from strings: [strPageName - strSiteName]
 + META Keywords and Description - Grabbed from strings: strKeywords and strDescription
 + Google Font API - Remove if not required for a (big) performance boost. Placed first to start downloading the font asap.
-+ Stylesheet - Grabbed from string strStylesheet. NOT CURRENTLY IN USE
-+ Master Stylesheet - styles.css - Placed last to override any previous styles
++ Bootstrap styles - Core Bootstrap CSS
++ Bootswatch - Grabbed from string strBootswatch. See demo-bootswatch.asp for available themes.
++ Master Stylesheet - styles.css - Placed last to override any previous styles.
 + Humans.txt - People and technologies involved in the production.
 	
 Setup2.asp - All script files should be launched from here.
