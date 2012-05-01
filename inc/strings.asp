@@ -1,15 +1,16 @@
 <%
 'Global
-Dim strDomain, strAdminEmail, strSiteName, strTagline, strUserIP
+Dim strDomain, strAdminEmail, strSiteName, strTagline, strBootswatch, strUserIP
 strDomain = "http://localhost/bootstrasp/"
 strAdminEmail = ""
 strSiteName = "BootstrASP"
 strTagline = "Twitter Bootstrap with some ASP goodies"
+strBootswatch = ""
 strUserIP = Request.ServerVariables("REMOTE_ADDR")
 
 'Page Specific
 'You could set default values here and overide them per page
-Dim strPageName, strCanonical, strDescription, strKeywords, strBootswatch
+Dim strPageName, strCanonical, strDescription, strKeywords
 
 'Bootstrap
 Dim strBSCSS, strBSImg, strBSJS

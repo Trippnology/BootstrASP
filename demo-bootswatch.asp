@@ -5,7 +5,6 @@ strPageName = "Bootswatch Demo":
 strCanonical = "demo-bootswatch.asp":
 strDescription = "A demo of swatches from Bootswatch.com":
 strKeywords = "keyword1, keyword2, keyword3":
-strBootswatch = "":
 strTweetText = strPageName
 %>
 <!-- #include file="setup.asp" -->
