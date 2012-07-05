@@ -24,6 +24,7 @@ strTweetText = strPageName
 				<article>
 					<p><a href="http://bootswatch.com/" title="Bootswatch" rel="external">Bootswatch</a> is a collection of free themes that you can drop into your Bootstrap site.</p>
 					<p>It's currently implemented into BootstrASP in a bad way. It's currently hotlinking the .css file from bootswatch.com instead of using the API they provide. Switching to the API is on the TODO list.</p>
+					<p>To use a Bootswatch theme on your site, simply add the desired theme name in inc/strings.asp</p>
 				</article>
 			</div>
 				
