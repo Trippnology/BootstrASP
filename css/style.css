@@ -471,6 +471,8 @@ img.right	{ margin:0 0 0 20px; }
 .rollover:focus .front {
   z-index: 1;
 }
+/* Override Bootsrap style which breaks demo 2 */
+#rolloverdemo li.fade { opacity: 1; }
 .fade .rollover .front {
   opacity: 1;
   -webkit-transition: 1s;
