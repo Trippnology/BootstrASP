@@ -5,7 +5,7 @@ strDomain = "http://localhost/bootstrasp/"
 strAdminEmail = ""
 strSiteName = "BootstrASP"
 strTagline = "Twitter Bootstrap with some ASP goodies"
-strBootswatch = ""
+strBootswatch = "" 'See demo-bootswatch.asp for info;
 strUserIP = Request.ServerVariables("REMOTE_ADDR")
 
 'Page Specific
