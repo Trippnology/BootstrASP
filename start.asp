@@ -2,7 +2,7 @@
 <!-- #include file="inc/strings.asp" -->
 <%
 strPageName = "BootstrASP":
-strCanonical = "http://localhost/bootstrasp/default.asp":
+strCanonical = "default.asp":
 strDescription = "A standards compliant framework to jump start our web projects.":
 strKeywords = "keyword1, keyword2, keyword3":
 strTweetText = strPageName
