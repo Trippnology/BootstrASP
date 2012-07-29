@@ -18,6 +18,7 @@ Setup.asp - The entire <head></head>. Do not put scripts here unless necessary (
 + Bootswatch - Grabbed from string strBootswatch. See demo-bootswatch.asp for available themes.
 + Master Stylesheet - styles.css - Placed last to override any previous styles.
 + Humans.txt - People and technologies involved in the production.
++ Modernizr - Formerly a submodule. Go to http://modernizr.com/download/ and pick the features you need and save as libs/modernizr.min.js
 	
 Setup2.asp - All script files should be launched from here.
 

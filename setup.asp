@@ -33,5 +33,5 @@
     <link rel="canonical" href="<%=strDomain & strCanonical%>">
     <link rel="author" href="<%=strDomain%>humans.txt">
     
-    <script src="modernizr/modernizr.js"></script>
+    <script src="js/libs/modernizr.min.js"></script>
 </head>
