@@ -3,8 +3,6 @@ See: https://bitbucket.org/Trippnology/bootstrasp/issues
 
 ##Features
 +Finish implementing HTML5 form validation (branch: h5fv). Need to set up Modernizr test and load jQuery validation if not natively available.
-+Make loading of Google Fonts conditional
-+Make loading of bootstrap-responsive conditional
 +New menu effect demo.
 +Add string for "slug" to be added as a class to <body>
 +Add OpenGraph data grabbed from strings (use strPageTitle etc)

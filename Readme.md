@@ -73,6 +73,8 @@ GLOBAL
 - strAdminEmail - Email address of the site owner.
 - strSiteName - Website title.
 - strTagline - Company slogan.
+- strBootswatch - Which theme to load from bootswatch.com
+- strResponsive - Should we load the responsive stylesheet? (true or false)
 - strUserIP - IP address of page visitor.
 - strBSCSS, strBSImg, strBSJS - Directories of Bootstrap files (just in case they are changed in the future).
 

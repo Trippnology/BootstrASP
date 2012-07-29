@@ -1,11 +1,12 @@
 <%
 'Global
-Dim strDomain, strAdminEmail, strSiteName, strTagline, strBootswatch, strUserIP
+Dim strDomain, strAdminEmail, strSiteName, strTagline, strBootswatch, strResponsive, strUserIP
 strDomain = "http://localhost/bootstrasp/"
 strAdminEmail = ""
 strSiteName = "BootstrASP"
 strTagline = "Twitter Bootstrap with some ASP goodies"
 strBootswatch = "" 'See demo-bootswatch.asp for info;
+strResponsive = true 'Load responsive stylesheet?
 strUserIP = Request.ServerVariables("REMOTE_ADDR")
 
 'Page Specific
